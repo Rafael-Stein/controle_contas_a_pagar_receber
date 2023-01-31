@@ -1,0 +1,44 @@
+----------------------------------------
+| Controle de Contas a Pagar e Receber |
+----------------------------------------
+|         Banco de Dados MySQL         |
+----------------------------------------
+- Cadastros
+  - Endereços
+    - id
+    - logradouro
+    - numero
+    - cidade
+    - cep
+    - uf
+  - Clientes
+    - id
+    - enderecoID
+    - razao_sozial/nome
+    - cnpj/cpf
+    - contatoNome
+    - contatoEmail
+    - contatoTelefone
+  - Fornecedores
+    - id
+    - enderecoID
+    - razao_sozial
+    - cnpj
+    - contatoNome
+    - contatoEmail
+    - contatoTelefone
+  - Pagamentos
+    - id
+    - fornecedorID
+    - valor
+    - vencimento
+    - dataPagamento
+    - situacao
+  - Receitas
+    - id
+    - clienteID
+    - valor
+    - vencimento
+    - dataPagamento
+    - situacao
+----------------------------------------
