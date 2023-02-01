@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Controller\EnderecoController.cs" />
     <Compile Include="Model\DataBase\ConexaoMySQL.cs" />
+    <Compile Include="Model\Receita.cs" />
     <Compile Include="Model\Pagamento.cs" />
     <Compile Include="Model\Fornecedor.cs" />
     <Compile Include="Model\Cliente.cs" />

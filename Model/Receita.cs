@@ -3,11 +3,11 @@
 namespace controle_contas_a_pagar_receber.Model
 {
     
-    public class Pagamento
+    public class Receita
     {
 
         public int ID { get; set; }
-        public int FornecedorID { get; set; }
+        public int ClienteID { get; set; }
         public string NotaFiscalNumero { get; set; }
         public float Valor { get; set; }
         public DateTime Vencimento { get; set; }
