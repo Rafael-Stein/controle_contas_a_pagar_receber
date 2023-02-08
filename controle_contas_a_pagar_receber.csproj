@@ -69,18 +69,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\EnderecoController.cs" />
-    <Compile Include="Model\DataBase\ConexaoMySQL.cs" />
-    <Compile Include="Model\Receita.cs" />
-    <Compile Include="Model\Pagamento.cs" />
-    <Compile Include="Model\Fornecedor.cs" />
-    <Compile Include="Model\Cliente.cs" />
-    <Compile Include="Model\Endereco.cs" />
-    <Compile Include="View\Form1.cs">
+    <Compile Include="controller\EnderecoController.cs" />
+    <Compile Include="model\dataBase\ConexaoMySQL.cs" />
+    <Compile Include="model\Receita.cs" />
+    <Compile Include="model\Pagamento.cs" />
+    <Compile Include="model\Fornecedor.cs" />
+    <Compile Include="model\Cliente.cs" />
+    <Compile Include="model\Endereco.cs" />
+    <Compile Include="view\PrincipalUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="view\PrincipalUI.Designer.cs">
+      <DependentUpon>PrincipalUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +93,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\PrincipalUI.resx">
+      <DependentUpon>PrincipalUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
