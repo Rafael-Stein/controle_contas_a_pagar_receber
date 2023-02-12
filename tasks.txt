@@ -4,43 +4,44 @@
 |         Banco de Dados MySQL         |
 ----------------------------------------
 - Cadastros
-  - Endereços
-    - id
-    - logradouro
-    - numero
-    - cidade
-    - cep
-    - uf
-  - Clientes
-    - id
-    - enderecoID
-    - razao_sozial/nome
-    - cnpj/cpf
-    - contatoNome
-    - contatoEmail
-    - contatoTelefone
-  - Fornecedores
-    - id
-    - enderecoID
-    - razao_sozial
-    - cnpj
-    - contatoNome
-    - contatoEmail
-    - contatoTelefone
-  - Pagamentos
-    - id
-    - fornecedorID
-    - notaFiscalNumero
-    - valor
-    - vencimento
-    - dataPagamento
-    - situacao
-  - Receitas
-    - id
-    - clienteID
-    - notaFiscalNumero
-    - valor
-    - vencimento
-    - dataPagamento
-    - situacao
+| - Clientes
+|   - id
+|   - razao_social_nome
+|   - cnpj/cpf
+|   - logradouro
+|   - numero
+|   - cidade
+|   - cep
+|   - uf
+|   - contatoNome
+|   - contatoEmail
+|   - contatoTelefone
+|-- Receitas
+| | - id
+| | - clienteID
+| | - notaFiscalNumero
+| | - valor
+| | - vencimento
+| | - dataPagamento
+| | - situacao
+| - Fornecedores
+|   - id
+|   - razao_social
+|   - cnpj
+|   - logradouro
+|   - numero
+|   - cidade
+|   - cep
+|   - uf
+|   - contatoNome
+|   - contatoEmail
+|   - contatoTelefone
+| - Pagamentos
+| | - id
+| | - fornecedorID
+| | - notaFiscalNumero
+| | - valor
+| | - vencimento
+| | - dataPagamento
+| | - situacao
 ----------------------------------------

@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller\ClienteController.cs" />
     <Compile Include="controller\EnderecoController.cs" />
     <Compile Include="model\dataBase\ConexaoMySQL.cs" />
     <Compile Include="model\Receita.cs" />
