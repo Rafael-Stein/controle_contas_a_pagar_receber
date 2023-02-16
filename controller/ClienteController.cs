@@ -78,7 +78,7 @@ namespace controle_contas_a_pagar_receber.Controller
     public Boolean update(Cliente cliente)
     {
       int rowsAffected = 0;
-      string query = "UPDATE cliente SET razaoSocial_nome = @razaoSocial_nome, cnpj_cpf = @cnpj_cpf, @logradouro = @logradouro, numero = @numero, cidade = @cidade, cep = @cep, uf = @uf, contatoNome = @contatoNome, contatoEmail = @contatoEmail, contatoTelefone = @contatoTelefone WHERE id = @id;";
+      string query = "UPDATE cliente SET razaoSocial_nome = @razaoSocial_nome, cnpj_cpf = @cnpj_cpf, logradouro = @logradouro, numero = @numero, cidade = @cidade, cep = @cep, uf = @uf, contatoNome = @contatoNome, contatoEmail = @contatoEmail, contatoTelefone = @contatoTelefone WHERE id = @id;";
 
       using (this.conexao = new ConexaoMySQL())
       {
@@ -186,10 +186,7 @@ namespace controle_contas_a_pagar_receber.Controller
 
     }
 
-    public void Dispose()
-    {
-      this.conexao.Dispose();
-    }
+    public void Dispose() { }
 
   }
 

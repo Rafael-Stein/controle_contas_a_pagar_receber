@@ -90,14 +90,15 @@
       // 
       this.menuItemContasReceberClientes.Name = "menuItemContasReceberClientes";
       this.menuItemContasReceberClientes.Padding = new System.Windows.Forms.Padding(0);
-      this.menuItemContasReceberClientes.Size = new System.Drawing.Size(125, 20);
+      this.menuItemContasReceberClientes.Size = new System.Drawing.Size(180, 20);
       this.menuItemContasReceberClientes.Text = "Clientes";
+      this.menuItemContasReceberClientes.Click += new System.EventHandler(this.menuItemContasReceberClientes_Click);
       // 
       // menuItemContasReceberReceitas
       // 
       this.menuItemContasReceberReceitas.Name = "menuItemContasReceberReceitas";
       this.menuItemContasReceberReceitas.Padding = new System.Windows.Forms.Padding(0);
-      this.menuItemContasReceberReceitas.Size = new System.Drawing.Size(125, 20);
+      this.menuItemContasReceberReceitas.Size = new System.Drawing.Size(180, 20);
       this.menuItemContasReceberReceitas.Text = "Receitas";
       // 
       // PrincipalUI

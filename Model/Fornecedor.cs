@@ -5,7 +5,6 @@
   {
 
     public int ID { get; set; }
-    public int EnderecoID { get; set; }
     public string RazaoSocial { get; set; }
     public string CNPJ { get; set; }
     public string Logradouro { get; set; }

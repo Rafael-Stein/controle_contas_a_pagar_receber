@@ -24,3 +24,4 @@ C:\Users\Rafael Stein\Documents\MeusProjetos\c_sharp\controle_contas_a_pagar_rec
 C:\Users\Rafael Stein\Documents\MeusProjetos\c_sharp\controle_contas_a_pagar_receber\obj\Debug\controle_contas_a_pagar_receber.csproj.CopyComplete
 C:\Users\Rafael Stein\Documents\MeusProjetos\c_sharp\controle_contas_a_pagar_receber\obj\Debug\controle_contas_a_pagar_receber.exe
 C:\Users\Rafael Stein\Documents\MeusProjetos\c_sharp\controle_contas_a_pagar_receber\obj\Debug\controle_contas_a_pagar_receber.pdb
+C:\Users\Rafael Stein\Documents\MeusProjetos\c_sharp\controle_contas_a_pagar_receber\obj\Debug\controle_contas_a_pagar_receber.view.ClienteUI.resources
